@@ -84,11 +84,10 @@ public class Sample {
 		HashMap<String, String> stringMap = new HashMap<>();
 		stringMap.put("people", "사람");
 		stringMap.put("baseball", "야구");
-		
+
 		HashMap<Integer, String> intStringMap = new HashMap<>();
 		intStringMap.put(1, "value1");
 		intStringMap.put(2, "value2");
-		
     // 집합 자료형으로 출력
     System.out.println(stringMap.keySet());  // [baseball, people]
 
@@ -99,12 +98,11 @@ public class Sample {
     ArrayList<Integer> keyList = new ArrayList<>(intStringMap.keySet());
 		System.out.println(keyList); // [1, 2]
 	}
-
 }
 ```
 
 # Python과의 비교 예제
-값으로 리스트를 가지려면?   
+value값으로 리스트를 가지려면?   
 
 ```Java
 import java.util.HashMap;
