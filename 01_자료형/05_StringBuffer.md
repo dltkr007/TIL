@@ -2,7 +2,7 @@
 StringBuffer는 문자열을 추가하거나 변경할 때 주로 사용하는 자료형   
 append, insert, substring, delete, reverse, length 등등 메서드 개많음   
 
-- append
+- append   
 StringBuffer 객체를 생성하고 문자열을 생성하는 예제
 ```Java
 StringBuffer sb = new StringBuffer(); // StringBuffer 객체 sb 생성
@@ -37,7 +37,7 @@ new StringBuffer()로 객체를 생성하면 String을 사용할 때보다 메�
 -> 적으면, String을 사용하는 것이 유리   
 -> 멀티 스레드 환경(비동기 작업 처리)이 아닐 때는 또 StringBuffer 대신 StringBuilder를 사용한다는 듯;   
 
-- insert
+- insert   
 insert 메서드를 통해 특정 위치에 원하는 문자열 삽입 가능
 ```Java
 StringBuffer sb = new StringBuffer();
@@ -47,7 +47,7 @@ System.out.println(sb.toString());
 // hello jump to java
 ```
 
-- substring
+- substring   
 substring 메서드는 String 자료형의 substring 메서드와 동일하게 작동(문자열 추출)   
 ```Java
 StringBuffer sb = new StringBuffer();
