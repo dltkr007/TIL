@@ -50,6 +50,15 @@ public class Sample {
 
 ```
 
+```javascript
+// JS의 foreach 메서드. 출력 결과는 위와 같음
+const numbers = ["one", "two", "three"];
+numbers.forEach(number => {
+    console.log(number);
+});
+
+```
+
 # 추가 예시
 배열에 서로 다른 타입의 요소들이 섞여있다면?
 ```Java
